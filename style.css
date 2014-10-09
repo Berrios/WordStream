@@ -4,14 +4,16 @@
 	margin: 0px; 
 }
 #wrapper{
-	max-width: 960px;
+	margin: auto;
+	width: 960px;
 }
 #header {
 	color: #838385;
-	max-width: 960px;
+	width: 960px;
 }
 	#header img{
 		padding-top: 16px;
+		padding-left: 10px;
 	}
 	#header h1{
 		display: inline-block;
@@ -20,17 +22,18 @@
 	}
 	#stream {
 		color: #057fab;
+		margin-right: 280px;
 	}
 	
 	#header ul{
-		display: inline-block;
-		vertical-align: top;
 		background-color: #f9f9f9;
-		padding: 5px;
-		border-radius: 5px;
 		border-color: #dedede;
+		border-radius: 5px;
 		border-style: solid;
 		border-width: 1px;
+		display: inline-block;
+		padding: 5px;
+		vertical-align: top;
 			}
 	#header ul li{
 		display: inline-block;
@@ -39,18 +42,35 @@
 	}
 	#header ul li a{
 		color: #99969f;
-		text-decoration: none;
 		border-right-color: #99969f;
 		border-right-style: solid;
-		padding-right: 5px;
-		font-size: 75%;
 		border-width: 1px;
+		font-size: 75%;
+		padding-right: 5px;
+		text-decoration: none;
 		vertical-align: top;	
 	}
 
 	#header button{
-		background-clip: rgba(208,228,247,1) 0%,rgba(115,177,231,1) 19%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 91%,rgba(135,188,234,1) 100%);
-		border-color: white;
-		color: white;
-	
+		background: #066dab;
+		border-radius: 5px;
+		border-style: none;
+		color: white; 
+		font-family: arial, verdana, sans-serif; 
+		font-size: 8pt;
+		font-weight: bold; 
+		padding: 9px;
+		vertical-align: top;
+		
 	}
+	#title{
+		background-color:  #066dab;
+		color: white;
+		display: block;
+		height: 40px;
+		text-align: left;
+		padding-left: 20px;
+		padding-top: 15px;
+		width: 100%;
+	}
+	
